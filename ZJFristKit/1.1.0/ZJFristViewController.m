@@ -1,22 +1,20 @@
 //
-//  ZJBaseViewController.m
-//  ZJBaseKit
+//  ZJFristViewController.m
+//  ZJFristKit
 //
-//  Created by 张军 on 2021/3/12.
-//  Copyright © 2021 张军. All rights reserved.
+//  Created by 张军 on 2021/3/16.
 //
 
-#import "ZJBaseViewController.h"
-@interface ZJBaseViewController ()
+#import "ZJFristViewController.h"
+
+@interface ZJFristViewController ()
 
 @end
 
-@implementation ZJBaseViewController
+@implementation ZJFristViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor orangeColor];
-    self.hidesBottomBarWhenPushed = YES;
     // Do any additional setup after loading the view.
 }
 

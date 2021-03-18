@@ -12,7 +12,7 @@
 
 @implementation ZJBaseVCModule
 + (void)load {
-    [[JSObjection defaultInjector] collectModule:[[ZJBaseVCModule alloc] init]];
+    [JSObjection  createInjector:[[ZJBaseVCModule alloc]init]];
 }
 
 - (void)configure {
